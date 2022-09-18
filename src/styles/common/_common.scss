@@ -1,0 +1,14 @@
+// CSS variables that may be changed under condition
+
+:root {
+  --primary-text-color: #ffffff;
+  --secondary-text-color: #8b99a6;
+  --primary-accent-color: #64ccc9;
+  --primary-accent-hover-color: #7ee3e0;
+  --bg-primary-color: #1f2327;
+  --bg-secondary-color: #292e33;
+}
+
+body {
+  background-color: var(--bg-primary-color);
+}
